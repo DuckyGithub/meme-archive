@@ -1,32 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Fira+Mono:wght@500&family=Montserrat:ital,wght@0,700;1,700&display=swap');
 
 
 
-body{
+body {
     background-color: #36393f;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
     color: rgb(255, 255, 255);
+    font-family: 'Montserrat';
 }
 
-header{
+header {
     text-align: center;
     font-size: 70px;
+    border-bottom: solid white 3px;
+    margin-bottom: 10px;
+    -webkit-text-stroke-width: 5px;
+    font-family: 'Knewave', cursive;
+    -webkit-text-stroke-color: black;
 }
 
-.footer{
-    position:absolute;
+.footer {
+    position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
 }
 
-.github-img{
+.github-img {
     vertical-align: middle;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
-    font-family: 'Montserrat';
+
+}
+
+.meme-cont {
+    margin-left: 3rem;
+}
+
+.meme-item {
+    
+    display: inline-block;
+    border: 5px solid transparent;
+    border-image: linear-gradient(0deg, rgba(255, 170, 0, 1) 39%, rgba(0, 0, 0, 0) 76%) 1;
+    margin-right: 10px;
 }

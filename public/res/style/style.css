@@ -21,12 +21,7 @@ header {
     -webkit-text-stroke-color: black;
 }
 
-.footer {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-}
+
 
 .github-img {
     vertical-align: middle;
@@ -39,13 +34,23 @@ a {
 }
 
 .meme-cont {
-    margin-left: 3rem;
+    display: grid;
+    /* margin-left: 33%;
+    margin-right: auto; */
 }
 
 .meme-item {
-    
     display: inline-block;
+    grid-template: 1fr / 1fr;
+    place-items: center;
     border: 5px solid transparent;
     border-image: linear-gradient(0deg, rgba(255, 170, 0, 1) 39%, rgba(0, 0, 0, 0) 76%) 1;
     margin-right: 10px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 100;
+    width: 100%;
+    text-align: center;
 }
